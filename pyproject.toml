@@ -1,0 +1,13 @@
+[project]
+name = "phone-analyzer"
+version = "0.1.0"
+description = "Herramienta de análisis de números telefónicos"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "pandas>=2.2.3",
+    "phonenumbers>=8.13.53",
+    "requests>=2.32.3",
+    "streamlit>=1.41.1",
+    "trafilatura>=2.0.0",
+]
